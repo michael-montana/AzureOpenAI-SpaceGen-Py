@@ -1,0 +1,10 @@
+name: azure-openai-deployment
+metadata:
+  description: "Deployment of Azure OpenAI Service using Bicep and azd"
+  version: "1.0.0"
+
+infra:
+  bicep: ./infra/main.bicep
+  parameters:
+    location: ${AZURE_LOCATION}
+    openAiServiceName: ${OPEN_AI_SERVICE_NAME}
