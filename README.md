@@ -1,8 +1,15 @@
+
+
+
+![Example GIF](SpaceGenBanner.png)
+
+
+
+
 winget install microsoft.azd
 azd auth login --use-device-code
 > Microsoft.com/devicelogin > Codeeingabe
 azd init
-
 
 ![Example GIF](V4.png)
 ![Example GIF](V3.png)
