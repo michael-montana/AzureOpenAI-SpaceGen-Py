@@ -16,5 +16,5 @@ resource openAiService 'Microsoft.CognitiveServices/accounts@2023-05-01' = {
 }
 
 output openAiServiceName string = openAiService.name
-output openAiServiceKey string = listKeys(openAiService.id, '2023-04-01').key1
+output openAiServiceKey string = listKeys(openAiService.id, '2023-05-01').key1
 output openAiServiceEndpoint string = 'https://${openAiService.name}.openai.azure.com/'

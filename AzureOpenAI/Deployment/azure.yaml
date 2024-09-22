@@ -6,5 +6,5 @@ metadata:
 infra:
   bicep: ./infra/main.bicep
   parameters:
-    location: ${AZURE_LOCATION}
-    openAiServiceName: ${OPEN_AI_SERVICE_NAME}
+    AZURE_LOCATION: ${AZURE_LOCATION}
+    OPEN_AI_SERVICE_NAME: ${OPEN_AI_SERVICE_NAME}
